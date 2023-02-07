@@ -1,3 +1,6 @@
+//Name: <?= fn ?> và <?= ln ?>
+
+
 function Mail_Merge_App(){
   let mail_title = "Tiêu đề của email";
   let first = 0;
