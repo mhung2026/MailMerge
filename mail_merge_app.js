@@ -1,4 +1,4 @@
-//Name: <?= fn ?> và <?= ln ?>
+//Name: <?= sn ?> <?= fn ?> và <?= ln ?>
 
 
 function Mail_Merge_App(){
