@@ -15,7 +15,7 @@ function Mail_Merge_App(){
       let htmlMessage = emailTemp.evaluate().getContent();
       GmailApp.sendEmail(
         row[email], 
-        mail_title ,
+        mail_title , //+ ', ' + row[first] + '!',
         "Your email doesn't support HTML.",
         {name: "Email gửi", htmlBody: htmlMessage} 
         );        
